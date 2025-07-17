@@ -1,0 +1,21 @@
+{
+  "appTitle": "إسلامي",
+  "quran": "القرآن",
+  "hadith": "الحديث",
+  "sebha": "السبحة",
+  "hadithName": "اسم الحديث",
+  "suraName": "اسم السورة",
+  "radio": "الراديو",
+  "settings": "الإعدادات",
+  "light": "فاتح",
+  "dark": "داكن",
+  "language": "اللغة",
+  "selectLanguage": "اختر اللغة",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+  "theme": "النمط",
+  "selectTheme": "اختر النمط",
+  "systemTheme": "نمط النظام",
+  "darkMode": "الوضع الداكن",
+  "lightMode": "الوضع الفاتح"
+}

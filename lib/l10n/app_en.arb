@@ -1,0 +1,21 @@
+{
+  "appTitle": "Islami",
+  "quran": "Quran",
+  "hadith": "Hadith",
+  "sebha": "Sebha",
+  "hadithName": "Hadith Name",
+  "suraName": "Sura Name",
+  "radio": "Radio",
+  "settings": "Settings",
+  "light": "Light",
+  "dark": "Dark",
+  "language": "Language",
+  "selectLanguage": "Select Language",
+  "english": "English",
+  "arabic": "Arabic",
+  "theme": "Theme",
+  "selectTheme": "Select Theme",
+  "systemTheme": "System Default",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode"
+}
