@@ -23,14 +23,14 @@ class _HadithTapState extends State<HadithTap> {
       children: [Center(child: Image.asset('assets/images/hadeth_logo.png')),
 
       Divider(
-        color: provider.isDark()?MyTheme.primarydark:MyTheme.primarylight,
+        color: provider.isDark()?MyTheme.yellow:MyTheme.primarylight,
         thickness: 3,
       ),
       Text(AppLocalizations.of(context)!.hadithName,
       style: Theme.of(context).textTheme.headline1,
       ),
         Divider(
-          color: provider.isDark()?MyTheme.primarydark:MyTheme.primarylight,
+          color: provider.isDark()?MyTheme.yellow:MyTheme.primarylight,
           thickness: 3,
         ),
 
@@ -42,7 +42,7 @@ Expanded(
       }, 
       separatorBuilder: (context, index) {
         return       Divider(
-          color: provider.isDark()?MyTheme.primarydark:MyTheme.primarylight,
+          color: provider.isDark()?MyTheme.yellow:MyTheme.primarylight,
           thickness: 3,
         );
       },
