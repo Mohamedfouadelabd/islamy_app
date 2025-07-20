@@ -46,7 +46,7 @@ List<String> verse=[];
         Scaffold(
           appBar: AppBar(
             title: Text(args.name,
-              style: Theme.of(context).textTheme.headline1,
+
             ),
 
           ),
