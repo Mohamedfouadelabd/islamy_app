@@ -3,6 +3,7 @@ import 'package:islamy_project/Home_Screen.dart';
 import 'package:islamy_project/Provider/app_config_provider.dart';
 import 'package:islamy_project/Theme/my_theme.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:islamy_project/hadith/hadith_detils.dart';
 import 'package:islamy_project/quran/soura_detils.dart';
 import 'package:provider/provider.dart';
 void main() {
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
       routes: {
         HomeScreen.routeName: (context) => HomeScreen(),
    SouraDetils.routeName:(context) => SouraDetils(),
+        HadithDetils.routeName:(context) => HadithDetils(),
       },
       theme: MyTheme.lighttheme,
       darkTheme: MyTheme.darktheme,
