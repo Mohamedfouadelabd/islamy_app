@@ -7,6 +7,15 @@ class MyTheme {
   static Color black = Color(0xff000000);
   static Color yellow = Color(0xffFACC1D);
   static ThemeData lighttheme = ThemeData(
+      bottomSheetTheme: BottomSheetThemeData(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            top: Radius.circular(25), // تدوير من الأعلى فقط
+          ),
+        ),
+      backgroundColor: MyTheme.Wihte
+      ),
+
       textTheme: TextTheme(
         headline1: TextStyle(
             color: MyTheme.black, fontWeight: FontWeight.bold, fontSize: 30),
@@ -33,6 +42,15 @@ class MyTheme {
       ),
       primaryColor: primarylight);
   static ThemeData darktheme = ThemeData(
+      bottomSheetTheme: BottomSheetThemeData(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            top: Radius.circular(25), // تدوير من الأعلى فقط
+          ),
+        ),
+     backgroundColor: MyTheme.primarydark
+
+      ),
       textTheme: TextTheme(
         headline1: TextStyle(
             color: MyTheme.Wihte, fontWeight: FontWeight.bold, fontSize: 30),
